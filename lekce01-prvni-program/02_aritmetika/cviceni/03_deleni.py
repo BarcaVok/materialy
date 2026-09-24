@@ -3,4 +3,4 @@
 
 # Vypiš, kolik je 100 děleno 8.
 
-
+print(100 / 8)

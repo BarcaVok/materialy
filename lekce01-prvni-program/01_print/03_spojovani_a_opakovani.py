@@ -15,3 +15,15 @@ print("Ahoj" + " " + "PyLadies!")  # Ahoj PyLadies!
 # Hvězdičkou se text opakuje – hodí se třeba na oddělovací čáru:
 print("=" * 20)
 print("ahoj " * 3)
+
+print(2-3)
+print(2*3)
+print(2/3)
+
+#dělení beze zbytku
+print(17//3)
+
+#modulo - zbytek po dělení
+print(17%3)
+
+print(2**3) #druhá mocnina

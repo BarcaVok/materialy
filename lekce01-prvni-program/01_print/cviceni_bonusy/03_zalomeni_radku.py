@@ -5,3 +5,4 @@
 #     Pak jedním printem vypiš své jméno a příjmení pod sebe.
 
 
+print("Barbora\nVokšická")

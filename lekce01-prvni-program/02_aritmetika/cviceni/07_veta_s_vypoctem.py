@@ -4,4 +4,4 @@
 # Vypiš větu i s výsledkem, třeba: Dohromady to je 25
 #    Číslo nech spočítat Python (napiš do print výpočet, ne hotové číslo).
 
-
+print("Dohromady to je", 5 * 5)

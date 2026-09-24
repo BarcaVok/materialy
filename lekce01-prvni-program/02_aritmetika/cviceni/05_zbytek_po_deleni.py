@@ -4,3 +4,4 @@
 # Vypiš zbytek po dělení 100 sedmi.
 
 
+print(100 % 7)

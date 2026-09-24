@@ -3,4 +3,6 @@
 
 # Zboží stojí 250 Kč. Připočti 21% DPH a vypiš výslednou cenu.
 
+print("Zboží stojí", 250 *1.21, "Kč.")
+
 

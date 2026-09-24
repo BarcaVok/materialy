@@ -4,3 +4,4 @@
 # Vypiš, kolik je 9 krát 6.
 
 
+print(9 * 6)

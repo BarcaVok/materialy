@@ -3,4 +3,4 @@
 
 # Zjisti poslední číslici čísla 2837.
 
-
+print(2837 % 10)

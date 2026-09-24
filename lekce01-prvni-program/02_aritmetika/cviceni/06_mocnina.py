@@ -3,4 +3,4 @@
 
 # Vypiš 3 na čtvrtou.
 
-
+print(3 ** 4)

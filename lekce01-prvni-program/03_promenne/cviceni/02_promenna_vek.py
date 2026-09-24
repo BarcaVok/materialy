@@ -4,3 +4,6 @@
 # Vytvoř proměnnou vek a ulož do ní svůj věk. Pak ji vypiš.
 
 
+vek = 32
+
+print(vek)

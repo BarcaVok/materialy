@@ -5,3 +5,4 @@
 #    Třeba: Ahoj Aničko
 
 
+print("Ahoj"+" "+"Aničko")
