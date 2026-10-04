@@ -3,4 +3,7 @@
 
 # Zeptej se uživatele na dvě čísla a vypiš jejich součet.
 
+prvnicislo = int(input("vyber první číslo "))
+druhecislo = int(input("vyber druhé číslo "))
 
+print(prvnicislo + druhecislo)

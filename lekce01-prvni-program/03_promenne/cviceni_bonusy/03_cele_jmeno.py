@@ -5,3 +5,8 @@
 #     Vypiš na jeden řádek celé jméno.
 
 
+jmeno = "Barbora"
+
+prijmeni = "Lalala"
+
+print(jmeno, prijmeni) 

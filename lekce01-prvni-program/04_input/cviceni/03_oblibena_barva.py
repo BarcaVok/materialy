@@ -5,3 +5,5 @@
 #    a vypiš ji ve větě.
 
 
+barva = input("Jakou máš oblíbenou barvu?")
+print(f"Tvoje oblíbená barva je {barva}")

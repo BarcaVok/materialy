@@ -5,3 +5,5 @@
 #    a vypiš, kolik mu bude za 10 let.
 
 
+vek = input("Kolik ti je let?")
+print(int(vek)+10)
