@@ -1,5 +1,5 @@
-# Bonus 1 – And, or a not
-# Doplň kód pod zadání a soubor spusť (Run).
+# Řešení bonusu 1 – And, or a not
+# Tvoje řešení může vypadat jinak, a to je v pořádku.
 
 # Druh trojúhelníku. Máš tři strany. Urči a vypiš, jaký to je
 #     trojúhelník:
@@ -10,10 +10,9 @@
 a = 5
 b = 5
 c = 8
-
-if a == b and a == c:
+if a == b and b == c:
     print("rovnostranný")
-elif (a == b) or (a == c) or (b == c):
+elif a == b or b == c or a == c:
     print("rovnoramenný")
 else:
-    print( "různostranný")
+    print("různostranný")

@@ -1,0 +1,1 @@
+print("Je mi 30 let, mám kočku.")
