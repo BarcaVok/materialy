@@ -5,3 +5,7 @@
 #     zaplatí každý, zaokrouhleno na dvě desetinná místa.
 
 
+pocet = 6
+castka = 460
+
+print(round((castka / pocet), 2))

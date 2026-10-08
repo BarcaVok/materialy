@@ -6,4 +6,6 @@
 #    druhý ho dokonči.
 cena = 1000
 
+cenasdph = cena * 1.21
 
+print(cena, cenasdph)

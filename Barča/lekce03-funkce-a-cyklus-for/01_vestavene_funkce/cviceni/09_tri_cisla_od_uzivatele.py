@@ -6,3 +6,8 @@
 #    Např. z čísel -20, 5 a 12 je největší velikost 20.
 
 
+prvni = int(input("Zadejte číslo: "))
+druhe = int(input("Zadejte číslo: "))
+treti = int(input("Zadejte číslo: "))
+
+print(max(abs(prvni), abs(druhe), abs(treti)))
