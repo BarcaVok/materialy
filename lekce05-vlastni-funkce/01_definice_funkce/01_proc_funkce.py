@@ -60,9 +60,25 @@ zkontroluj_heslo("pyladies2026")
 zkontroluj_heslo("abc")
 
 
+# Na pořadí výpisů je ten rozdíl vidět. Python si při čtení definice funkci
+# jenom zapamatuje a dovnitř se zatím nepodívá:
+print("před definicí")
+
+
+def pozdrav():
+    print("uvnitř funkce")
+
+
+print("po definici")
+pozdrav()
+print("po zavolání")
+
+
 # Takhle se definice čte:
 #   def              = klíčové slovo (definuju funkci)
 #   zkontroluj_heslo = jméno, které si volíš sama
 #   (heslo)          = parametr, se kterým funkce pracuje
 #   :                = dvojtečka na konci řádku
 #   odsazení         = odsazené řádky jsou tělo funkce
+#
+# (Definici a zavolání ukazuje obrázek definice_funkce.png.)
