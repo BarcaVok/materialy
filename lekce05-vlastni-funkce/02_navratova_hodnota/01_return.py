@@ -19,11 +19,27 @@ zkontroluj_heslo("kolo")
 # neudělá – kdybychom chtěli krátké heslo odmítnout a dlouhé pustit dál,
 # musí nám funkce tu informaci předat zpátky. Od toho je return:
 def je_heslo_dost_dlouhe(heslo):
+    if len(heslo) >= 8:
+        return True
+    else:
+        return False
+
+
+# Funkce teď vrací True nebo False – hodnoty, které už znáš z podmínek.
+
+
+# Porovnání len(heslo) >= 8 vyrobí True nebo False samo o sobě, takže se
+# ta funkce dá napsat i takhle krátce:
+def je_heslo_dost_dlouhe(heslo):
     return len(heslo) >= 8
 
 
-# Funkce teď vrací True nebo False – hodnoty, které znáš z lekce 2.
-# Můžeme si je uložit do proměnné:
+# Obě verze dělají to samé. Delší se čte snadněji, kratší potkáš v cizím
+# kódu. Druhá definice tu první přepsala, takže dál v souboru pracujeme
+# s kratší verzí.
+
+
+# Výsledek si můžeme uložit do proměnné:
 vysledek = je_heslo_dost_dlouhe("kolo")
 print("kolo:", vysledek)
 

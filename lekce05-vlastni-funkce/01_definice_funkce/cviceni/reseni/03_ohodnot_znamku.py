@@ -1,7 +1,7 @@
 # Řešení cvičení 3 – Definice funkce
 # Tvoje řešení může vypadat jinak, a to je v pořádku.
 
-# Napiš funkci ohodnot_znamku(znamka), která vypíše:
+# Napiš funkci ohodnot_znamku, která má na vstupu celé číslo a vypíše:
 #    1 → "Výborně", 2 → "Chvalitebně", 3 → "Dobře",
 #    cokoliv jiného → "Ještě zabereme".
 #    Zavolej ji v cyklu for pro známky 1 až 5.

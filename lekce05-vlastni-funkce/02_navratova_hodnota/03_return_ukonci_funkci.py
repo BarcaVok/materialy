@@ -15,6 +15,24 @@ def pozdrav_a_vrat(jmeno):
 print(pozdrav_a_vrat("Anno"))
 
 
+# return jde napsat i bez hodnoty. Pak funkci jenom ukončí. Hodí se, když
+# se zbytek práce nemá dělat vůbec:
+def pozdrav(jmeno):
+    if jmeno == "":
+        print("Nevím, koho zdravit.")
+        return
+    print("Ahoj,", jmeno)
+    print("Vítej v kurzu!")
+
+
+pozdrav("Anno")
+
+
+# Takový return žádnou hodnotu nepředá, takže funkce vrátí None – stejně
+# jako funkce, která return nemá vůbec.
+print(pozdrav(""))
+
+
 # Funkce může mít returnů víc. Použije se ten, ke kterému program dojde
 # jako k prvnímu – takhle si funkce vybírá z několika odpovědí:
 def ohodnot_znamku(znamka):

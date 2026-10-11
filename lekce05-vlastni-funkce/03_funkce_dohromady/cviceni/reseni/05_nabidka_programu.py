@@ -1,10 +1,18 @@
 # Řešení cvičení 5 – Funkce dohromady
 # Tvoje řešení může vypadat jinak, a to je v pořádku.
 
-# Napiš program s nabídkou: hodit kostkou, pozdravit, konec.
-#    V cyklu while True nabídku zobraz, zeptej se na volbu a podle ní
-#    zavolej funkci. Po volbě "konec" cyklus ukonči.
-#    Každá volba i samotné zobrazení nabídky ať je vlastní funkce.
+# Napiš program, který pořád dokola nabízí tři možnosti a zeptá se,
+#    co má udělat:
+#
+#      1 - hodit kostkou
+#      2 - pozdravit
+#      3 - konec
+#
+#    Volba 1 hodí kostkou a vypíše, co padlo. Volba 2 se zeptá na jméno
+#    a pozdraví ho. Volba 3 program ukončí. Po volbě 1 a 2 se nabídka
+#    objeví znovu. Na cokoli jiného program odpoví, že volbu nezná.
+#    Použij cyklus while True.
+#    Zobrazení nabídky i obě akce napiš jako vlastní funkce.
 
 from random import randrange
 

@@ -32,7 +32,26 @@ print("ze spocitej_dph:", vysledek_vypoctu)
 # print(vysledek_vypisu + 50)     # TypeError
 
 
-# Proto se funkce většinou píšou tak, že spočítají a vrátí,
-# a vypisování nechají na tom, kdo je volá:
+# Proto se funkce většinou píšou tak, že spočítají a vrátí, a vypisování
+# nechají na tom, kdo je volá. Funkce, která výsledek vypíše, umí jednu
+# jedinou věc a navždycky. Funkce, která ho vrátí, ho podá dál a volající
+# si vybere, co s ním:
 print("Cena s DPH:", spocitej_dph(100), "Kč")
 print("Dohromady:", spocitej_dph(100) + spocitej_dph(250), "Kč")
+
+
+# Vybrat si může i to, že výsledek pošle do další funkce. Děláš to celou
+# dobu – print(spocitej_dph(100)) je přesně ono. Tady ho pošleme funkci
+# round, kterou znáš z vestavěných funkcí:
+print(round(spocitej_dph(99.9), 2))
+
+
+# Nebo se podle výsledku rozhodne:
+if spocitej_dph(1000) > 1000:
+    print("Tohle už je na dražší objednávku.")
+
+
+# Vypsat výsledek hned se zdá jednodušší. print ale píše do terminálu
+# a terminál je jen jedno z míst, kde výsledek může skončit – jinde to
+# bude webová stránka, okno aplikace nebo soubor. Funkce, která spočítá
+# a vrátí, poslouží všude.

@@ -3,7 +3,8 @@
 # ---------------------------------------------
 # Spusť soubor a sleduj, co se vypíše.
 #
-# Funkce používáš od první lekce, jenom jsme jim tak neříkali:
+# Funkce používáš od první lekce. Dřív jsme jim říkali vestavěné funkce –
+# Python je má připravené a napsal je někdo jiný:
 #
 #   print("Ahoj")       vypíše text
 #   input("Jméno: ")    počká na odpověď
@@ -15,10 +16,9 @@
 # se kterými má pracovat, a ona odvede svoji práci. Kdo ji napsal a co
 # je uvnitř, řešit nemusíš.
 #
-# Tyhle funkce má Python připravené. Na všechno ale hotová funkce být
-# nemůže – co budeš zrovna potřebovat, dopředu nikdo netuší.
-# Vlastní funkci si proto napíšeš sama. Třeba takovou, která zkontroluje,
-# jestli je heslo dost dlouhé.
+# Na všechno ale hotová funkce být nemůže – co budeš zrovna potřebovat,
+# dopředu nikdo netuší. Od téhle lekce si funkce píšeš sama – třeba
+# takovou, která zkontroluje, jestli je heslo dost dlouhé.
 #
 # Nejdřív se podíváme, jak taková kontrola vypadá bez ní.
 # Heslo bereme jako dost dlouhé, když má aspoň 8 znaků:

@@ -19,6 +19,10 @@ zkontroluj_heslo("pyladies", 20)
 
 # Parametry jsou jména v definici: heslo, min_delka.
 # Argumenty jsou hodnoty, které pošleš při volání: "pyladies", 8.
+#
+# Parametr si pojmenuješ, jak chceš – platí pro něj stejná pravidla jako
+# pro proměnné. Vyplatí se jméno, ze kterého je poznat, co se do funkce
+# posílá: min_delka napoví víc než x.
 
 
 # Záleží na pořadí. Tenhle řádek skončí chybou TypeError, protože

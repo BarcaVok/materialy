@@ -9,6 +9,16 @@ def je_plnoleta(vek):
     return vek >= 18
 
 
+# Porovnání vek >= 18 vyrobí True nebo False samo. Delší zápis, který
+# dělá to samé a čte se snadněji:
+#
+# def je_plnoleta(vek):
+#     if vek >= 18:
+#         return True
+#     else:
+#         return False
+
+
 vek = int(input("Kolik ti je let? "))
 if je_plnoleta(vek):
     print("Můžeš dál.")

@@ -7,9 +7,9 @@
 #    Sčítat None nejde, proto TypeError. S return se dá s výsledkem
 #    dál počítat.
 
-def cena_s_dph(cena):
-    return cena * 1.21
+def obvod_ctverce(strana):
+    return strana * 4
 
 
-celkem = cena_s_dph(100) + cena_s_dph(250)
+celkem = obvod_ctverce(3) + obvod_ctverce(5)
 print("Dohromady:", celkem)

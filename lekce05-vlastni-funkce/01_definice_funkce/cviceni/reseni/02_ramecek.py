@@ -1,9 +1,9 @@
 # Řešení cvičení 2 – Definice funkce
 # Tvoje řešení může vypadat jinak, a to je v pořádku.
 
-# Napiš funkci ramecek(text), která vypíše řádek hvězdiček,
-#    pod něj text a pod něj další řádek hvězdiček.
-#    Zavolej ji pro dva různé texty.
+# Napiš funkci ramecek, která má na vstupu řetězec. Vypíše řádek
+# hvězdiček, pod něj ten text a pod něj další řádek hvězdiček.
+# Zavolej ji pro dva různé texty.
 
 def ramecek(text):
     print("*" * 30)
