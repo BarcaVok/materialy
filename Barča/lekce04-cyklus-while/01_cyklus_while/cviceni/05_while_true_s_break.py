@@ -6,3 +6,8 @@
 #    Použij while True.
 
 
+slovo = input("Zadej slovo: ")
+
+while slovo != "Konec":
+    slovo = input("Zadej slovo: ")
+print(slovo)

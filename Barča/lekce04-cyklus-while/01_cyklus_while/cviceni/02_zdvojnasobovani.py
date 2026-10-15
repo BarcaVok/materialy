@@ -5,3 +5,11 @@
 #    jakmile přesáhne 1000, a vypiš, kolikrát jsi ho zdvojnásobila.
 
 
+cislo = 1
+poradi = 0
+
+while cislo <= 1000:
+    cislo = cislo * 2
+    poradi = poradi + 1
+print(cislo)
+print(poradi)
