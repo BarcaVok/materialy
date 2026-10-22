@@ -8,3 +8,10 @@
 # definici sem nahoru, soubory se navzájem nevidí.
 
 
+def ramecek(retezec):
+    print("*"*30)
+    print(retezec)
+    print("*"*30)
+    
+    
+ramecek("kolo")

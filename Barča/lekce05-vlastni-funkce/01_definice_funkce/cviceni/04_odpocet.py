@@ -6,4 +6,12 @@
 #    Zavolej ji pro 3 a pro 5.
 #    Krok v range jde nastavit i tak, aby se počítalo dolů.
 
+def odpocet(cislo):
+    for cislo in range(cislo, 0, -1):
+        print(cislo)
+    print("Teď!")
+
+
+odpocet(3)
+odpocet(5)
 
