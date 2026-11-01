@@ -53,6 +53,11 @@ proto musí soubory dodržet formát, který převod umí přečíst:
   řádek `# Cvičení N – …` nebo `# Bonus N – …`, kde N odpovídá číslu `NN_` v názvu.
 - Řešení má v `reseni/` stejný název souboru a první řádek
   `# Řešení cvičení N – …` nebo `# Řešení bonusu N – …`.
+- Obrázek (PNG, JPEG, GIF, WebP nebo SVG) leží ve složce konceptu a výklad ho
+  zmíní jménem souboru. Na webu se vloží za odstavec, který ho zmiňuje. Řádek,
+  který je celý v závorce, třeba `# (Ukazuje to obrázek cyklus_while.png.)`,
+  se na webu obrázkem nahradí celý – do takové závorky proto nepiš nic
+  dalšího, co by čtenářka na webu měla vidět.
 
 Podrobný popis formátu je v
 [návodu k importu](https://github.com/pyladiesprague/public-pages/blob/main/code/materials/README.md)
