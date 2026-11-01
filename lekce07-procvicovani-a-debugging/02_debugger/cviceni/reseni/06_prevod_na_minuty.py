@@ -1,4 +1,4 @@
-# Řešení cvičení 4 – Debugger
+# Řešení cvičení 6 – Debugger
 # Opravený program. Pod ním je, jak se ta chyba našla.
 
 def na_minuty(cas):

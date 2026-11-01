@@ -13,9 +13,6 @@
 #   míň než 45       nedostatečně
 #
 # Neprospěl ten, kdo má nedostatečně.
-#
-# Nápověda: breakpoint můžeš dát i dovnitř funkce. V panelu pak
-# uvidíš, co funkce opravdu dostala.
 
 def prumer(test1, test2, test3):
     return (test1 + test2 + test3) / 3

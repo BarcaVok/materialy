@@ -1,12 +1,7 @@
-# Cvičení 4 – Debugger
+# Cvičení 6 – Debugger
 # Spusť soubor (Run). Výsledek je špatný. Najdi chybu debuggerem.
 
 # Program sečte délku tří tréninků zadaných ve tvaru "h:mm".
-# Zkus funkci nejdřív na "0:45". Nula hodin a pětačtyřicet minut
-# je pětačtyřicet minut – u takového vstupu se splést nedá.
-#
-# Nápověda: chyba je uvnitř funkce. Dej breakpoint na její první
-# řádek a pak mačkej Step Over.
 
 def na_minuty(cas):
     hodiny = int(cas[0])

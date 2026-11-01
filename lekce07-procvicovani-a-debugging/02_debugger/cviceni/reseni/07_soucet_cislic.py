@@ -1,4 +1,4 @@
-# Řešení cvičení 5 – Debugger
+# Řešení cvičení 7 – Debugger
 # Opravený program. Pod ním je, jak se ta chyba našla.
 
 pin = "4821"

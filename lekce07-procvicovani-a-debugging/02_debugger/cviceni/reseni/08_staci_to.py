@@ -1,4 +1,4 @@
-# Řešení cvičení 6 – Debugger
+# Řešení cvičení 8 – Debugger
 # Opravený program. Pod ním je, jak se ta chyba našla.
 
 castka = int(input("Kolik korun máš? "))

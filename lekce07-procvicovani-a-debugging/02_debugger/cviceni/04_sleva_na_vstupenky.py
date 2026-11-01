@@ -1,4 +1,4 @@
-# Cvičení 2 – Debugger
+# Cvičení 4 – Debugger
 # Spusť soubor (Run). Výsledek je špatný. Najdi chybu debuggerem.
 
 # Program spočítá cenu vstupenky podle věku:

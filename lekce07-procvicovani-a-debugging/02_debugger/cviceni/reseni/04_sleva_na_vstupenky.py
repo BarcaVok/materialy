@@ -1,4 +1,4 @@
-# Řešení cvičení 2 – Debugger
+# Řešení cvičení 4 – Debugger
 # Opravený program. Pod ním je, jak se ta chyba našla.
 
 vek = 10

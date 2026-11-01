@@ -1,4 +1,4 @@
-# Řešení cvičení 3 – Debugger
+# Řešení cvičení 5 – Debugger
 # Opravený program. Pod ním je, jak se ta chyba našla.
 
 zbyva = 87

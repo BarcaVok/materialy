@@ -1,13 +1,10 @@
-# Cvičení 3 – Debugger
+# Cvičení 5 – Debugger
 # Spusť soubor (Run). Výsledek je špatný. Najdi chybu debuggerem.
 
 # Program rozpočítá částku na mince: nejdřív bere dvacetikoruny,
 # ze zbytku pětikoruny a co zůstane, jsou koruny.
 #
 # Na výpisu je jedno číslo, které takhle vyjít nemůže.
-#
-# Nápověda: dej breakpoint na první řádek druhého cyklu a sleduj
-# v panelu Variables proměnnou zbyva.
 
 zbyva = 87
 dvacetikoruny = 0
